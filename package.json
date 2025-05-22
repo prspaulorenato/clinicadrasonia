@@ -1,0 +1,12 @@
+{
+  "name": "clinica-sonia-landing",
+  "version": "1.0.0",
+  "description": "Landing page da Clínica de Psicologia Dra. Sônia",
+  "main": "servidor.js",
+  "scripts": {
+    "start": "node servidor.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+} 
