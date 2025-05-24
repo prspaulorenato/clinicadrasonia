@@ -15,8 +15,8 @@ app.get('/', (req, res) => {
 app.get('/obrigado.html', (req, res) => {
   res.sendFile(path.join(__dirname, 'obrigado.html'), (err) => {
     if (err) {
-      console.error('Erro ao enviar obrigado.html:', err);
-      res.status(404).send('Página não encontrada');
+      console.error('Erro ao servir obrigado.html:', err);
+      res.status(404).send('Página de agradecimento não encontrada');
     }
   });
 });
